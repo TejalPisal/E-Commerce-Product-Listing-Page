@@ -1,13 +1,19 @@
 /* Header Styling */
 
-/* Logo Styling */
+/* Logo Placeholder Styling */
 .logo-placeholder {
-    width: 50px;
     height: 50px;
-    background-color: #ccc;
-    border-radius: 50%;
+    background-color: #ffb6c1;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px; 
+    color: white; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    text-align: center; 
 }
-
 
 /* Nav Intems styling */
 .navbar-nav .nav-link {
@@ -17,6 +23,20 @@
 /* Search Bar */
 .search-bar {
     width: 300px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #f8e3ef;
+}
+
+.form-select {
+    width: 100%;
+}
+
+h5 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
 }
 
 /* Product Card Styling */
