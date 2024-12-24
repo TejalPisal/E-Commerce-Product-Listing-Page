@@ -1,4 +1,17 @@
+body {
+    padding-top: 80px; 
+  }
+
 /* Header Styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
 /* Logo Placeholder Styling */
 .logo-placeholder {
     height: 50px;
@@ -80,6 +93,11 @@ h5 {
     transform: scale(1.1);
   }
 
+  /* Product price */
+  .price{
+    font-weight: bold;
+  }
+  
 /* Button hover effect */
 .btn-primary {
     transition: background-color 0.3s ease-in-out, transform 0.3s ease;
