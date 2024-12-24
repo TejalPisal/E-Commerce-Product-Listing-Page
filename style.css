@@ -1,12 +1,33 @@
+/* Header Styling */
+
+/* Logo Styling */
 .logo-placeholder {
     width: 50px;
     height: 50px;
     background-color: #ccc;
     border-radius: 50%;
 }
+
+
+/* Nav Intems styling */
 .navbar-nav .nav-link {
     margin-right: 20px;
 }
+
+/* Search Bar */
 .search-bar {
     width: 300px;
 }
+
+/* Product Card Styling */
+.product-card {
+    margin-bottom: 20px;
+  }
+
+  /* Product img styling */
+  .product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
